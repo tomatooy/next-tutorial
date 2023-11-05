@@ -37,6 +37,7 @@ export default function LoginForm() {
               />
               <AtSymbolIcon className="pointer-events-none absolute left-3 top-1/2 h-[18px] w-[18px] -translate-y-1/2 text-gray-500 peer-focus:text-gray-900" />
             </div>
+            <p className='text-gray-500 text-sm'>: user@nextmail</p>
           </div>
           <div className="mt-4">
             <label
@@ -57,6 +58,7 @@ export default function LoginForm() {
               />
               <KeyIcon className="pointer-events-none absolute left-3 top-1/2 h-[18px] w-[18px] -translate-y-1/2 text-gray-500 peer-focus:text-gray-900" />
             </div>
+            <p className='text-gray-500 text-sm'>: 123456</p>
           </div>
         </div>
         <LoginButton />
